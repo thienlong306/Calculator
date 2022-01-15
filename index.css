@@ -42,6 +42,9 @@ button {
   font-size: 18px;
   float: left;
 }
+button:active{
+  box-shadow: 1px 1px #2021245e !important;
+}
 
 button.key--equal {
   float: right;
@@ -52,6 +55,7 @@ button.number{
   background: #f1f3f4;
   color: #202124;
   border: 1px solid #f1f3f4;
+  border-radius: 4px;
 }
 button.action{
   background: #dadce0;
